@@ -3,6 +3,7 @@
   --color2: #f5f2fe;
   --color3: #231f20;
   --color4: #4b46a8;
+  --color5: #b6b2ff;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -96,6 +97,33 @@ p {
   text-decoration: underline;
 }
 
+#home-page-app-images {
+  height: 100%;
+  width: 100%;
+}
+#home-page-app-description {
+  border-radius: 20px;
+  background: var(--color3);
+  padding: 20px;
+}
+#app-title {
+  color: var(--color1);
+}
+
+#app-description {
+  color: var(--color2);
+}
+.spacer {
+  margin: 100px;
+}
+
+@media (max-width: 950px) {
+  #home-page-app-images {
+    height: auto;
+    width: auto;
+  }
+}
+
 @media (max-width: 450px) {
   #home-page-header {
     font-size: 25px;
@@ -123,5 +151,8 @@ p {
   }
   #about-page-contact-email {
     font-size: 20px;
+  }
+  #home-page-app-description {
+    text-align: center;
   }
 }
