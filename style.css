@@ -1,13 +1,19 @@
 :root {
   --color1: #6c63ff;
   --color2: #f5f2fe;
-  --color3: #0c0c21;
+  --color3: #231f20;
+  --color4: #4b46a8;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   margin-top: 100px;
   background: var(--color3);
+  background-image: url("./images/space-drawing.png");
+  height: 100%;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 h1,
@@ -18,11 +24,11 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 50px;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 40px;
 }
 
 h3 {
