@@ -96,6 +96,10 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+#home-page-columns {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 
 #home-page-app-images {
   height: 100%;
