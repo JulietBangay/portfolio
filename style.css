@@ -1,0 +1,121 @@
+:root {
+  --color1: #6c63ff;
+  --color2: #f5f2fe;
+  --color3: #0c0c21;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin-top: 100px;
+  background: var(--color3);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  color: var(--color2);
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--color1);
+  box-shadow: var(--color1);
+  color: white;
+}
+
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--color1);
+  border: 1px solid var(--color1);
+}
+
+.homepage-link {
+  color: var(--color1);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--color1);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 450px) {
+  #home-page-header {
+    font-size: 25px;
+  }
+  #home-page-name {
+    font-size: 45px;
+  }
+  #home-page-location {
+    font-size: 20px;
+  }
+  #home-page-app-images {
+    margin-top: 20px;
+  }
+  #home-page-columns {
+    margin-bottom: 10px;
+  }
+  #about-page-title {
+    font-size: 25px;
+  }
+  #about-page-location {
+    font-size: 20px;
+  }
+  #about-page-contact-title {
+    font-size: 25px;
+  }
+  #about-page-contact-email {
+    font-size: 20px;
+  }
+}
