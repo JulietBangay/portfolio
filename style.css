@@ -96,16 +96,19 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-#home-page-columns {
+#home-page-columns,
+#work-page-columns {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-#home-page-app-images {
+#home-page-app-images,
+#work-page-app-images {
   height: 100%;
   width: 100%;
 }
-#home-page-app-description {
+#home-page-app-description,
+#work-page-app-description {
   border-radius: 20px;
   background: var(--color3);
   padding: 20px;
@@ -185,9 +188,17 @@ p {
   margin-bottom: 40px;
   filter: invert(90%);
 }
+.footerCodedBy {
+  color: var(--color2);
+  margin: 20px;
+}
+.footerCodedBy a {
+  color: var(--color1);
+}
 
 @media (max-width: 950px) {
-  #home-page-app-images {
+  #home-page-app-images,
+  #work-page-app-images {
     height: auto;
     width: auto;
   }
@@ -206,7 +217,8 @@ p {
   #home-page-app-images {
     margin-top: 20px;
   }
-  #home-page-columns {
+  #home-page-columns,
+  #work-page-columns {
     margin-bottom: 10px;
   }
   #about-page-title {
@@ -222,7 +234,13 @@ p {
   #about-page-contact-email {
     font-size: 20px;
   }
-  #home-page-app-description {
+  #home-page-app-description,
+  #work-page-app-description {
     text-align: center;
+  }
+
+  .footer {
+    margin: 0;
+    margin-bottom: 20px;
   }
 }
