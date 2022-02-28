@@ -188,6 +188,9 @@ p {
   margin-bottom: 40px;
   filter: invert(90%);
 }
+#socialsLogo:hover {
+  filter: opacity(50%);
+}
 .footerCodedBy {
   color: var(--color2);
   margin: 20px;
