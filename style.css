@@ -161,9 +161,29 @@ p {
   font-size: 20px;
   background-color: var(--color3);
 }
+.contactsUL {
+  padding: 0;
+}
 .contactsLI {
   padding: 10px;
   list-style: none;
+}
+.about-me-project-container {
+  text-align: center;
+  margin: 40px;
+}
+.footer {
+  text-align: center;
+  margin: 50px;
+  margin-bottom: 20px;
+  padding: 40px;
+  background-color: var(--color3);
+}
+#socialsLogo {
+  width: 50px;
+  margin: 20px;
+  margin-bottom: 40px;
+  filter: invert(90%);
 }
 
 @media (max-width: 950px) {
