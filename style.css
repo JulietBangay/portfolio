@@ -154,6 +154,17 @@ p {
 #about-page-description {
   font-size: 20px;
 }
+.contactsContainer {
+  text-align: center;
+  color: var(--color2);
+  margin: 50px;
+  font-size: 20px;
+  background-color: var(--color3);
+}
+.contactsLI {
+  padding: 10px;
+  list-style: none;
+}
 
 @media (max-width: 950px) {
   #home-page-app-images {
