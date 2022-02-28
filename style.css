@@ -120,6 +120,40 @@ p {
 .spacer {
   margin: 100px;
 }
+#about-page-description {
+  color: var(--color2);
+}
+#profile-image {
+  width: 200px;
+  border-radius: 20px;
+  margin-left: 100px;
+}
+#about-me-grid-container {
+  background-color: var(--color3);
+  border-radius: 30px;
+  /* border: 2px solid var(--color1); */
+  padding: 20px;
+  margin-top: 50px;
+}
+.aboutMeMyProjects {
+  display: block;
+  margin: auto;
+  background-color: var(--color1);
+  color: var(--color2);
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 20px;
+  margin-top: 40px;
+  transition: all 200ms ease-in-out;
+}
+.aboutMeMyProjects:hover {
+  background-color: var(--color2);
+  color: var(--color1);
+}
+#about-page-description {
+  font-size: 20px;
+}
 
 @media (max-width: 950px) {
   #home-page-app-images {
@@ -149,6 +183,7 @@ p {
   }
   #about-page-location {
     font-size: 20px;
+    background-color: var(--color3);
   }
   #about-page-contact-title {
     font-size: 25px;
