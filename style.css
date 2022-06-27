@@ -10,11 +10,8 @@
 body {
   margin-top: 100px;
   background: var(--color3);
-  background-image: url("./images/space-drawing.png");
+
   height: 100%;
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
 }
 
 h1,
@@ -40,6 +37,11 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+}
+
+.home-page-featured {
+  color: white;
+  text-align: center;
 }
 
 .navigation-links {
